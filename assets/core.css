@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'koch_geometricregular';
+    src: url('fonts/kochgeometric_book_macroman/KochGeometric-Book-webfont.eot');
+    src: url('fonts/kochgeometric_book_macroman/KochGeometric-Book-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/kochgeometric_book_macroman/KochGeometric-Book-webfont.woff2') format('woff2'),
+    url('fonts/kochgeometric_book_macroman/KochGeometric-Book-webfont.woff') format('woff'),
+    url('fonts/kochgeometric_book_macroman/KochGeometric-Book-webfont.ttf') format('truetype'),
+    url('fonts/kochgeometric_book_macroman/KochGeometric-Book-webfont.svg#koch_geometricregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'koch_geometricmedium';
+    src: url('fonts/kochgeometric_medium_macroman/KochGeometric-Medium-webfont.eot');
+    src: url('fonts/kochgeometric_medium_macroman/KochGeometric-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/kochgeometric_medium_macroman/KochGeometric-Medium-webfont.woff2') format('woff2'),
+    url('fonts/kochgeometric_medium_macroman/KochGeometric-Medium-webfont.woff') format('woff'),
+    url('fonts/kochgeometric_medium_macroman/KochGeometric-Medium-webfont.ttf') format('truetype'),
+    url('fonts/kochgeometric_medium_macroman/KochGeometric-Medium-webfont.svg#koch_geometricmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    color: #fff;
+    font-family: "koch_geometricregular","Myriad Pro",Arial !important;
+    background-color: #121211;
+}
+
+footer .container {
+    padding-top:16px;
+    padding-bottom:8px;
+}
+
+footer .col-md-4{
+    text-align:right;
+}
+
+footer ul{
+    list-style:none;
+    padding:0px;
+}
+
+footer ul li{
+    display:inline-block;
+}
+
+#top_container{
+    background-image: url(facesfull.jpg);
+    background-size: 50%;
+}
+
+#masthead_container{
+    width:100%;
+    padding:2em 0;
+}
+
+#top_container a{
+    color:#fff;
+}
+
+#top_container .navbar-brand h1{
+    font-family: "koch_geometricmedium", "Myriad Pro", Arial;
+}
+
+#masthead_container h2{
+    font-size:1.25rem;
+}
+
+#masthead_container button{
+    border-radius:1.2rem;
+    cursor:pointer;
+    padding: .5rem 1rem;
+    font-size: 1.1rem;
+    line-height:1;
+    color:#fff;
+    padding: 1rem 1.5rem;
+}
+
+#navbarSupportedContent #login_button{
+    border-radius:1.2rem;
+}
+
+button{
+    cursor:pointer;
+    font-family: "koch_geometricregular","Myriad Pro",Arial !important;
+}
+
+.navbar-nav{margin: .25em 0;}
+#navbar_left .nav-item {margin-left: 0.5em;}
+
+.nav-item .nav-link {padding: 0 1em;}
+
+#navbar_right .nav-item {
+    margin-right: 0.5em;
+}
+
+#navbar_right .nav-item .nav-link i{
+    font-size:1.75em;
+    color: #ccc;
+}
+
+#top_container h1, #top_container h2, #top_container h3, #top_container h4, #top_container h5 {
+    color: #fff;
+}
+
+#updates_container .row{
+    border-bottom:1px solid #ccc;
+}
