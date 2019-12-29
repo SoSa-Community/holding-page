@@ -107,4 +107,14 @@ button{
 
 #updates_container .row{
     border-bottom:1px solid #ccc;
+    margin-bottom: 1.5rem;
+}
+
+#updates_container .row>div{
+    margin:0 auto;
+    text-align:left;
+}
+
+#updates_container h5{
+    margin-bottom:1em;
 }
