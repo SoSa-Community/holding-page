@@ -51,11 +51,6 @@ footer ul li{
     background-size: 50%;
 }
 
-#masthead_container{
-    width:100%;
-    padding:2em 0;
-}
-
 #top_container a{
     color:#fff;
 }
@@ -80,6 +75,31 @@ footer ul li{
 
 #navbarSupportedContent #login_button{
     border-radius:1.2rem;
+}
+
+#blog_link {
+    display:inline-block;
+
+}
+
+/* iPhone 5S looks weird otherwise */
+@media (min-width: 360px) {
+    #blog_link {
+        padding-right: 1em;
+        margin-right: 0.5em;
+        border-right: 1px solid #ccc;
+    }
+}
+
+
+#blog_link span {font-size: 1.75rem;}
+
+#blog_link span:first-child {
+    font-family: "koch_geometricmedium", "Myriad Pro", Arial;
+}
+
+#blog_link span:last-child {
+    font-family: "koch_geometricregular", "Myriad Pro", Arial;
 }
 
 button{
@@ -117,4 +137,9 @@ button{
 
 #updates_container h5{
     margin-bottom:1em;
+}
+
+#beta_container {
+    color: #fff;
+    background: #121211;
 }

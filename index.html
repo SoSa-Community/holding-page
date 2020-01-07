@@ -17,7 +17,7 @@
 
     <title>SoSa | Fun, Friendly, Privacy First Community</title>
 
-    <link rel="stylesheet" href="/assets/core.css">
+    <link rel="stylesheet" href="assets/core.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-XxNLWSzCxOe/CFcHcAiJAZ7LarLmw3f4975gOO6QkxvULbGGNDoSOTzItGUG++Q+" crossorigin="anonymous">
 
@@ -74,24 +74,62 @@
 
       <div class="row">
 
-        <div id="masthead_container">
-          <div class="col-12 col-md-4 mx-auto text-center">
-            <h1>Coming 2020</h1>
+        <div id="masthead_container" class="mt-2 container-fluid">
+          <div class="col-12 col-lg-8 mx-auto text-center">
+            <h1 class="mb-4">Join the adventure today!</h1>
             <h2 class="py-1">We're building a fun, friendly and privacy first community that makes it easy to socialise and benefit the planet at the same time!</h2>
             <h2 class="py-2">Join our adventure today and help us build something amazing.</h2>
             <p class="pt-2">
-                <a href="http://madmimi.com/signups/de86f6eec3b842c5a05e86d89afe5e40/join" class="btn btn-success d-inline-block">Sign up for Beta here!</a>
-                <a href="https://blog.sosa.net" class="btn btn-info d-inline-block">Check out our Blog!</a>
+              <a href="https://blog.sosa.net" id="blog_link">
+                <span>SoSa</span>
+                <span>Blog</span>
+              </a>
+              <a href="https://discord.gg/26snrKr"><img src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg" height="50"/></a>
             </p>
-            <p><a href="https://discord.gg/26snrKr"><img src="https://discordapp.com/assets/e4923594e694a21542a489471ecffa50.svg" height="50"/></a></p>
             <br />
           </div>
         </div>
       </div>
     </div>
-    <br />
 
+    <div class="container-fluid pb-4 pt-3" id="beta_container">
+      <div class="container">
+        <div class="col-12 col-md-8 col-lg-6 text-center mx-auto">
+          <h2>Get Involved!</h2>
+          <p>We're rolling out the first versions of the app to our beta testers this month! sign up to our beta program to be involved :)</p>
+          <div class="col-12 col-md-12 col-lg-10 mx-auto text-center">
+            <form id="ema_signup_form" action="https://madmimi.com/signups/subscribe/de86f6eec3b842c5a05e86d89afe5e40" accept-charset="UTF-8" method="post">
+              <input name="utf8" type="hidden" value="✓"/>
+              <input type="text" name="65d434965ae48e8d0d694209023ae0d3" class="d-none"/>
+              <input type="checkbox" name="beacon" class="d-none"/>
+
+              <div class="required form-group">
+                <input id="signup_name" name="signup[name]" type="text" class="form-control mb-2" placeholder="Your name" />
+                <input id="signup_email" name="signup[email]" type="text" placeholder="Your e-mail!" class="form-control"/>
+                <input type="submit" class="w-100 mt-2 btn btn-success" value="Join Beta" id="webform_submit_button" data-default-text="Join Beta" data-submitting-text="Sending..." data-invalid-text="↑ You forgot some required fields" data-choose-list="↑ Choose a list" data-thanks="Thank you!"/>
+              </div>
+
+
+
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
     <div class="container pt-4" id="updates_container">
+
+      <div class="row">
+        <div class="col-12">
+          <h2>SoSa - Foundations</h2>
+          <h5>6th January 2019</h5>
+          <p>If you’re an entrepreneur you’ll probably be in a similar boat to me. Trying to do a million jobs on a tiny budget.</p>
+          <p>Great for your startup, not so much for fortnightly updates! So I’ll try to keep these posts structured and a little ridiculous.</p>
+          <p>There will be a combination of tech stuff, marketing stuff and general nonsense.</p>
+          <p><a href="https://blog.sosa.net/sosa-the-foundations/">Read More</a>...</p>
+        </div>
+      </div>
 
       <div class="row">
         <div class="col-12">
