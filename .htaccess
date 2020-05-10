@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^(discuss)$ proxy.php?url=$1 [QSA,L]
+RewriteRule ^(discuss/.*)$ proxy.php?url=$1 [QSA,L]
+</IfModule>
